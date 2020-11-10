@@ -1,0 +1,95 @@
+$('input[type=radio][name=alasan_kedatangan]').on('change',() => {
+    let parameter = $('input[type=radio][name=alasan_kedatangan]:checked').val();
+                  
+    if($('input[type=radio][name=alasan_kedatangan]:checked').val() == "Rujukan"){
+        $('input[name=alasan_kedatangan_rujuk]').show();
+        parameter = $('input[name=alasan_kedatangan_rujuk]').val();
+    }else{
+        $('input[name=alasan_kedatangan_rujuk]').hide();
+    }
+})
+
+$('input[type=radio][name=kendaraan]').on('change',() => {
+    let parameter = $('input[type=radio][name=kendaraan]:checked').val();
+                  
+    if($('input[type=radio][name=kendaraan]:checked').val() == "Rujukan"){
+        $('input[name=kendaraan_nonambulance_add]').show();
+        parameter = $('input[name=kendaraan_nonambulance_add]').val();
+    }else{
+        $('input[name=alasan_kendaraan_nonambulance_add]').hide();
+    }
+})
+
+$("input[name='mekanisme_trauma']").change(function () {
+     if ($(this).val() == "KLL Tunggal") {
+     $("#kll_tunggal_add").show();
+    } else {
+     $("#kll_tunggal_add").hide();
+    }
+});
+
+$("input[name='mekanisme_trauma']").change(function () {
+     if ($(this).val() == "KLL") {
+     $("#kll_add").show();
+    } else {
+     $("#kll_add").hide();
+    }
+});
+
+$("input[name='mekanisme_trauma']").change(function () {
+   if ($(this).val() == "Jatuh dari Ketinggian") {
+     $("#jatuh_dari_ketinggian_add").show();
+   } else {
+     $("#jatuh_dari_ketinggian_add").hide();
+   }
+});
+
+$("input[name='mekanisme_trauma']").change(function () {
+  if ($(this).val() == "Luka Bakar") {
+    $("#luka_bakar_add").show();
+   } else {
+    $("#luka_bakar_add").hide();
+   }
+});
+$("input[name='mekanisme_trauma']").change(function () {
+ if ($(this).val() == "Trauma Listrik") {
+   $("#trauma_listrik_add").show();
+  } else {
+    $("#trauma_listrik_add").hide();
+  }
+});
+$("input[name='mekanisme_trauma']").change(function () {
+  if ($(this).val() == "Trauma Zat Kimia") {
+    $("#trauma_zat_kimia_add").show();
+   } else {
+    $("#trauma_zat_kimia_add").hide();
+   }
+});
+$("input[name='mekanisme_trauma']").change(function () {
+    if ($(this).val() == "Trauma Lainnya) {
+        $("#trauma_lainnya_add").show();
+    } else {
+        $("#trauma_lainnya_add").hide();
+    }
+});
+$('input[type=radio][name=riwayat_op]]').on('change',() => {
+    let parameter = $('input[type=radio][name=riwayat_op]:checked').val();
+                  
+    if($('input[type=radio][name=]:checked').val() == "Ya"){
+        $('#riwayat_op_ya_add').show();
+        parameter = $('#riwayat_op_ya_add').val();
+    }else{
+        $('#riwayat_op_ya_add').hide();
+    }
+})
+
+                    $('input[type=radio][name=riwayat_op]').on('change',() => {
+                        let parameter = $('input[type=radio][name=riwayat_op]:checked').val();
+                                    
+                        if($('input[type=radio][name=riwayat_op]:checked').val() == "Ya"){
+                            $('input[name=riwayat_op_ya_add]').show();
+                            parameter = $('input[name=riwayat_op_ya_add]').val();
+                        }else{
+                            $('input[name=riwayat_op_ya_add]').hide();
+                        }
+                    });

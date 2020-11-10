@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Amezia - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A premium admin dashboard template by themesbrand" name="description" />
+    <meta content="Themesbrand" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Top Bar Start -->
+    <div class="topbar">
+
+        <!-- LOGO -->
+        <div class="topbar-left">
+            <a href="index.html" class="logo">
+                <span>
+                    <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                </span>
+                <span>
+                    <img src="../assets/images/logo.png" alt="logo-large" class="logo-lg">
+                </span>
+            </a>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar-custom">
+
+            <!-- Search input -->
+            <div class="search-wrap" id="search-wrap">
+                <div class="search-bar">
+                    <input class="search-input" type="search" placeholder="Search here.." />
+                    <a href="javascript:void(0);" class="close-search search-btn" data-target="#search-wrap">
+                        <i class="mdi mdi-close-circle"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="list-unstyled topbar-nav float-right mb-0">
+                <li>
+                    <a class="nav-link waves-effect waves-light search-btn" href="javascript:void(0);"
+                        data-target="#search-wrap">
+                        <i class="mdi mdi-magnify nav-icon"></i>
+                    </a>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown"
+                        href="javascript: void(0);" role="button" aria-haspopup="false" aria-expanded="false">
+                        English <img src="../assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt="" /> <i
+                            class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img
+                                src="../assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img
+                                src="../assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img
+                                src="../assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img
+                                src="../assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img
+                                src="../assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="mdi mdi-bell-outline nav-icon"></i>
+                        <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                        <!-- item-->
+                        <h6 class="dropdown-item-text">
+                            Notifications (258)
+                        </h6>
+                        <div class="slimscroll notification-list">
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of
+                                        the printing and typesetting industry.</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">New Message received<small class="text-muted">You have 87
+                                        unread messages</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
+                                <p class="notify-details">Your item is shipped<small class="text-muted">It is a long
+                                        established fact that a reader will</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of
+                                        the printing and typesetting industry.</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">New Message received<small class="text-muted">You have 87
+                                        unread messages</small></p>
+                            </a>
+                        </div>
+                        <!-- All-->
+                        <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                            View all <i class="fi-arrow-right"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link waves-effect waves-light" href="javascript:void(0);" id="btn-fullscreen">
+                        <i class="mdi mdi-fullscreen nav-icon"></i>
+                    </a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <img src="../assets/images/users/user-1.jpg" alt="profile-user" class="rounded-circle" />
+                        <span class="ml-1 nav-user-name hidden-sm">Amelia <i class="mdi mdi-chevron-down"></i> </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> My Wallet</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Settings</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Lock screen</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled topbar-nav mb-0">
+
+                <li>
+                    <button class="button-menu-mobile nav-link waves-effect waves-light">
+                        <i class="mdi mdi-menu nav-icon"></i>
+                    </button>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="mdi mdi-library-plus mr-2"></i>Tools <i class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Photoshop
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Visual Studio
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Sublime Text 3
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Phpstorm
+                        </a>
+
+                    </div>
+                </li>
+                <li class="hidden-sm">
+                    <a class="nav-link waves-effect waves-light" href="../landing/index.html" target="_blank">
+                        <i class="mdi mdi-airplane mr-2"></i>Landing
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- end navbar-->
+    </div>
+    <!-- Top Bar End -->
+
+    <div class="page-wrapper">
+        <!-- Left Sidenav -->
+        <div class="left-sidenav">
+            <ul class="metismenu left-sidenav-menu" id="side-nav">
+
+                <li class="menu-title">Main</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-speedometer"></i><span>Dashboards</span><span
+                            class="badge badge-danger badge-pill float-right">9+</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="index.html">Dashboard 1</a></li>
+                        <li><a href="index-2.html">Dashboard 2</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-email-variant"></i><span>Email</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="email-inbox.html">Inbox</a></li>
+                        <li><a href="email-read.html">Read Email</a></li>
+                        <li><a href="email-compose.html">Compose Email</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="calendar.html">
+                        <i class="mdi mdi-calendar"></i><span>Calendar</span>
+                    </a>
+                </li>
+
+                <li class="menu-title">Components</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-briefcase-check"></i><span>UI Elements</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="ui-alerts.html">Alerts</a></li>
+                        <li><a href="ui-buttons.html">Buttons</a></li>
+                        <li><a href="ui-cards.html">Cards</a></li>
+                        <li><a href="ui-dropdowns.html">Dropdowns</a></li>
+                        <li><a href="ui-modals.html">Modals</a></li>
+                        <li><a href="ui-typography.html">Typography</a></li>
+                        <li><a href="ui-progress.html">Progress</a></li>
+                        <li><a href="ui-tabs-accordions.html">Tabs & Accordions</a></li>
+                        <li><a href="ui-tooltips-popovers.html">Tooltips & Popover</a></li>
+                        <li><a href="ui-carousel.html">Carousel</a></li>
+                        <li><a href="ui-pagination.html">Pagination</a></li>
+                        <li><a href="ui-video.html">Videos</a></li>
+                        <li><a href="ui-colors.html">Colors</a></li>
+                        <li><a href="ui-grid.html">Grid System</a></li>
+                        <li><a href="ui-spinners.html">Spinners</a></li>
+                        <li><a href="ui-toasts.html">Toasts</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-buffer"></i><span>Advanced UI</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="advanced-rangeslider.html">Range Slider</a></li>
+                        <li><a href="advanced-sweetalerts.html">Sweet Alerts</a></li>
+                        <li><a href="advanced-nestable.html">Nestable List</a></li>
+                        <li><a href="advanced-ratings.html">Ratings</a></li>
+                        <li><a href="advanced-highlight.html">Highlight</a></li>
+                        <li><a href="advanced-clipboard.html">Clipboard</a></li>
+                        <li><a href="advanced-lightbox.html">Lightbox</a></li>
+                        <li><a href="advanced-session.html">Session Timeout</a></li>
+                        <li><a href="advanced-scrollbars.html">Scrollbars</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-clipboard-outline"></i><span
+                            class="badge badge-info float-right">8</span><span>Forms</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="forms-elements.html">Basic Elements</a></li>
+                        <li><a href="forms-advanced.html">Advance Elements</a></li>
+                        <li><a href="forms-validation.html">Validation</a></li>
+                        <li><a href="forms-wizard.html">Wizard</a></li>
+                        <li><a href="forms-editors.html">Editors</a></li>
+                        <li><a href="forms-repeater.html">Repeater</a></li>
+                        <li><a href="forms-x-editable.html">X Editable</a></li>
+                        <li><a href="forms-uploads.html">File Upload</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-chart-arc"></i><span>Charts</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="charts-morris.html">Morris</a></li>
+                        <li><a href="charts-chartist.html">Chartist</a></li>
+                        <li><a href="charts-flot.html">Flot</a></li>
+                        <li><a href="charts-peity.html">Peity</a></li>
+                        <li><a href="charts-chartjs.html">Chartjs</a></li>
+                        <li><a href="charts-sparkline.html">Sparkline</a></li>
+                        <li><a href="charts-knob.html">Jquery Knob</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i
+                            class="mdi mdi-format-list-bulleted-type"></i><span>Tables</span><span class="menu-arrow"><i
+                                class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="tables-basic.html">Basic</a></li>
+                        <li><a href="tables-datatable.html">Datatables</a></li>
+                        <li><a href="tables-responsive.html">Responsive</a></li>
+                        <li><a href="tables-editable.html">Editable</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-album"></i><span>Icons</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="icons-materialdesign.html">Material Design</a></li>
+                        <li><a href="icons-dripicons.html">Dripicons</a></li>
+                        <li><a href="icons-fontawesome.html">Font awesome</a></li>
+                        <li><a href="icons-themify.html">Themify</a></li>
+                        <li><a href="icons-typicons.html">Typicons</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-title">More</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-map"></i><span>Maps</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="maps-google.html">Google Maps</a></li>
+                        <li><a href="maps-vector.html">Vector Maps</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i
+                            class="mdi mdi-account-location"></i><span>Authentication</span><span class="menu-arrow"><i
+                                class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="auth-login.html">Login</a></li>
+                        <li><a href="auth-register.html">Register</a></li>
+                        <li><a href="auth-recoverpw.html">Recover Password</a></li>
+                        <li><a href="auth-lock-screen.html">Lock Screen</a></li>
+                        <li><a href="auth-404.html">Error 404</a></li>
+                        <li><a href="auth-500.html">Error 500</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-google-pages"></i><span>Pages</span><span
+                            class="badge badge-success float-right">Hot</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="page-tour.html">Tour</a></li>
+                        <li><a href="page-timeline.html">Timeline</a></li>
+                        <li><a href="page-invoice.html">Invoice</a></li>
+                        <li><a href="page-treeview.html">Treeview</a></li>
+                        <li><a href="page-profile.html">Profile</a></li>
+                        <li><a href="page-starter.html">Starter Page</a></li>
+                        <li><a href="page-pricing.html">Pricing</a></li>
+                        <li><a href="page-faq.html">FAQs</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);"><i class="mdi mdi-contact-mail"></i><span>Email Templates</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="email-templates-basic.html">Basic Action Email</a></li>
+                        <li><a href="email-templates-alert.html">Alert Email</a></li>
+                        <li><a href="email-templates-billing.html">Billing Email</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end left-sidenav-->
+
+        <!-- Page Content-->
+        <div class="page-content">
+
+            <div class="container-fluid">
+
+                <!-- Page-Title -->
+                <form id="forminput">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-title-box">
+                                <div class="float-right">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Amezia</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Forms</a></li>
+                                        <li class="breadcrumb-item active">Validation</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <form class="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <!-- <div class="col-md-12"> -->
+                                                <label id="no_rm">No.RM</label>
+                                                <input type="hidden" value="" name="no_rm_x">/
+                                                <input type="hidden" value="" name="no_kunjungan">
+                                                <label id="nama">Nama</label><br>
+                                                <label id="umur">Umur</label>/
+                                                <label id="jns_kel">Jenis Kelamin</label>
+
+                                                <!-- </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <form id="forminput1">
+                                <div class="form-group" id="fisioterapi">
+                                    <h4 class="page-title">FORM ASESMENT FISIOTERAPI</h4> <br>
+                                    <!-- Status dan Tanggal -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                    <th>
+                                                                        <p for="status" style="text-align: left;">Status
+                                                                        </p>
+                                                                    </th>
+                                                                    <td>
+                                                                        <div class="custom-control custom-radio mb-3">
+                                                                            <input type="radio"
+                                                                                class="custom-control-input"
+                                                                                id="r_jalan" name="status" value="1">
+                                                                            <label class="custom-control-label"
+                                                                                for="r_jalan">R. Jalan</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="custom-control custom-radio mb-3">
+                                                                            <input type="radio"
+                                                                                class="custom-control-input" id="r_inap"
+                                                                                name="status" value="2">
+                                                                            <label class="custom-control-label"
+                                                                                for="r_inap">R. Inap</label>
+                                                                        </div>
+                                                                    </td>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td scope="row">Tanggal</td>
+                                                                    <td><input type="date" class="form-control"
+                                                                            placeholder="" id="tanggal" name="tanggal"
+                                                                            required></td>
+                                                                    <td scope="row">Jam</td>
+                                                                    <td><input type="time" class="form-control"
+                                                                            placeholder="" id="jam" name="jam" required>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- anamnese -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-4">
+                                                                    <h5>A. Anamnese</h5>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div class="custom-control custom-radio mb-3">
+                                                                        <input type="radio" class="custom-control-input"
+                                                                            id="autonamnese" name="anamnese" value="1">
+                                                                        <label class="custom-control-label"
+                                                                            for="autonamnese">Autonamnese</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div class="custom-control custom-radio mb-3">
+                                                                        <input type="radio" class="custom-control-input"
+                                                                            id="heteronamnese" name="anamnese"
+                                                                            value="2">
+                                                                        <label class="custom-control-label"
+                                                                            for="heteronamnese">Heteronamnese</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-body">
+                                                                <table class="table">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>1. Keluhan Utama</td>
+                                                                            <td><input type="text" class="form-control"
+                                                                                    placeholder="" id="keluhan_utama"
+                                                                                    name="keluhan_utama" required></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>2. Riwayat Penyakit Sekarang</td>
+                                                                            <td><input type="text" class="form-control"
+                                                                                    placeholder=""
+                                                                                    id="riwayat_sakit_baru"
+                                                                                    name="riwayat_sakit_baru" required>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>2. Riwayat Penyakit Dahulu dan Penyerta
+                                                                            </td>
+                                                                            <td><input type="text" class="form-control"
+                                                                                    placeholder=""
+                                                                                    id="riwayat_sakit_dulu"
+                                                                                    name="riwayat_sakit_dulu" required>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Pemeriksaan Fisik  -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="row">
+                                                            <div class="col-4">
+                                                                <h5>B. Pemeriksaan Fisik dan Vital</h5>
+                                                                <div class="card-body">
+                                                                    <table>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>1. TD</td>
+                                                                                <td><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder="" id="td" name="td"
+                                                                                        required></td>
+                                                                                <td>MmHg</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2. HR</td>
+                                                                                <td><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder="" id="hr" name="hr"
+                                                                                        required></td>
+                                                                                <td>x/mnt</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3. Suhu</td>
+                                                                                <td><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder="" id="suhu"
+                                                                                        name="suhu" required></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>4. RR</td>
+                                                                                <td><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder="" id="rr" name="rr"
+                                                                                        required></td>
+                                                                                <td>x/mnt</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>5. Skor Nyeri</td>
+                                                                                <td><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder="" id="skor_nyeri"
+                                                                                        name="skor_nyeri" required></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table> <br>
+                                                                    <div class="">
+                                                                        <a href="" id="1"><img src="images/1.png" alt=""
+                                                                                width="15%"></a>
+                                                                        <a href="" id="2"><img src="images/2.png" alt=""
+                                                                                width="15%"></a>
+                                                                        <a href="" id="3"><img src="images/3.png" alt=""
+                                                                                width="15%"></a>
+                                                                        <a href="" id="4"><img src="images/4.png" alt=""
+                                                                                width="15%"></a>
+                                                                        <a href="" id="5"><img src="images/5.png" alt=""
+                                                                                width="15%"></a>
+                                                                        <a href="" id="6"><img src="images/6.png" alt=""
+                                                                                width="15%"></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <h6>Kemampuan Fungsional</h6>
+                                                                <table>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_tidur"
+                                                                                        value="1"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_tidur">1.
+                                                                                        Tidur/bedrest/gendong
+                                                                                    </label></div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_jalan"
+                                                                                        value="2"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_jalan">2.
+                                                                                        Jalan Sendiri
+                                                                                    </label></div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_kursi"
+                                                                                        value="3"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_kursi">3.
+                                                                                        Kursi Roda
+                                                                                    </label></div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_alat"
+                                                                                        value="4"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_alat">4.
+                                                                                        Alat Bantu
+                                                                                    </label><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder=""
+                                                                                        id="ket_kemam_fung_alat"
+                                                                                        name="ket_kemam_fung"
+                                                                                        style="display: none;">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_prothese"
+                                                                                        value="5"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_prothese">5.
+                                                                                        Prothese
+                                                                                    </label><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder=""
+                                                                                        id="ket_kemam_fung_prothese"
+                                                                                        name="ket_kemam_fung"
+                                                                                        style="display: none;">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_deformitas"
+                                                                                        value="6"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_deformitas">6.
+                                                                                        Deformitas
+                                                                                    </label><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder=""
+                                                                                        id="ket_kemam_fung_deformitas"
+                                                                                        name="ket_kemam_fung"
+                                                                                        style="display: none;">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_jatuh"
+                                                                                        value="7"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_jatuh">7.
+                                                                                        Resiko Jatuh
+                                                                                    </label><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder=""
+                                                                                        id="ket_kemam_fung_jatuh"
+                                                                                        name="ket_kemam_fung"
+                                                                                        style="display: none;">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <div
+                                                                                    class="custom-control custom-radio">
+                                                                                    <input type="radio"
+                                                                                        class="custom-control-input"
+                                                                                        id="kemam_fungsional_lain"
+                                                                                        value="8"
+                                                                                        name="kemam_fungsional">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="kemam_fungsional_lain">8.
+                                                                                        Lain-lain
+                                                                                    </label><input type="text"
+                                                                                        class="form-control"
+                                                                                        placeholder=""
+                                                                                        id="ket_kemam_fung_lain"
+                                                                                        name="ket_kemam_fung"
+                                                                                        style="display: none;">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <form action="inc/aksi.php" method="post" enctype="multipart/form-data">
+                                                                <input type="file" id="uploadFile" name="file"> </br>
+                                                                
+                                                            </form>
+                            
+                                                            <!-- <form name="photo" id="imageUploadForm" enctype="multipart/form-data" name="gambar_fungsional">
+                                                            <div class="col-4">
+                                                                <h6>Pemeriksaan Fisik</h6>
+                                                                <div class="custom-file">
+                                                                    <input type="file" class="custom-file-input"
+                                                                        name="gambar_fungsional" id="gambar_fungsional"
+                                                                        required>
+                                                                    <label class="custom-file-label"
+                                                                        for="pemeriksaan_fisik">Choose
+                                                                        file...</label>
+                                                                    <div class="invalid-feedback">Example invalid custom
+                                                                        file feedback
+                                                                    </div>
+                                                                </div> <br> -->
+                                                                <!-- <div class='preview' style="width: 220px;
+                                                                    height: 250px;
+                                                                    border: 1px solid black;
+                                                                    margin: 0 auto;
+                                                                    background:dimgrey;">
+                                                                    <img src="images/anotasi.png" 2 id="img" width="220"
+                                                                        height="250">
+                                                                </div> -->
+                                                                 <!-- <button class="btn btn-warning mt-4" id="but_upload"
+                                                                    type="submit">Submit
+                                                                    form</button>  -->
+                                                            <!-- </div>
+                                                        </form> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Pemeriksaan Sistemik Khusus -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="form-group">
+                                                            <H5>1. Pemeriksaan Sistemik Khusus:*)</H5>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>a. Musculoskeletal</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="musculoskeletal"
+                                                                                name="musculoskeletal" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>b. Neuromuscular</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="neuromuscular"
+                                                                                name="neuromuscular" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>c. Cardio Pulmonal</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="cardio_pulmonal"
+                                                                                name="cardio_pulmonal" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>d. Integument</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="integument"
+                                                                                name="integument" required></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <h6>*)Pemeriksaan dilakukan sesuai dengan telaah sistem yang
+                                                                dilakukan</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Pengukuran Khusus -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="form-group">
+                                                            <H5>2. Pengukuran Khusus:*)</H5>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>a. Musculoskeletal</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder=""
+                                                                                id="musculoskeletal_pengukuran"
+                                                                                name="musculoskeletal_pengukuran"
+                                                                                required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>b. Neuromuscular</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder=""
+                                                                                id="neuromuscular_pengukuran"
+                                                                                name="neuromuscular_pengukuran"
+                                                                                required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>c. Cardio Pulmonal</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder=""
+                                                                                id="cardio_pulmonal_pengukuran"
+                                                                                name="cardio_pulmonal_pengukuran"
+                                                                                required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>d. Integument</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder=""
+                                                                                id="integument_pengukuran"
+                                                                                name="integument_pengukuran" required>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <h6>*)Pemeriksaan dilakukan sesuai dengan telaah sistem yang
+                                                                dilakukan</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Data Penunjang -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="form-group">
+                                                            <H5>3. Data Penunjang</H5>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>a. Radiologi</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="radiologi"
+                                                                                name="radiologi" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>b. EMG</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="emg" name="emg"
+                                                                                required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>c. Laboratorium</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="laboratorium"
+                                                                                name="laboratorium" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>d. Lain-lain</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="ket_lain"
+                                                                                name="ket_lain" required></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Diagnosis Fisioterapi -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <div class="form-group">
+                                                            <H5>C. Diagnosis Fisioterapi</H5>
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>a. Impairment (Body Function & Body
+                                                                            Structure)</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="Impairment"
+                                                                                name="Impairment" required></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>b. Activity Limitation</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder="" id="activity_limitation"
+                                                                                name="activity_limitation" required>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>c. Participation Restriction</td>
+                                                                        <td><input type="text" class="form-control"
+                                                                                placeholder=""
+                                                                                id="participation_restriction"
+                                                                                name="participation_restriction"
+                                                                                required></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Program Rencana Terapi -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <h5>D. Program Rencana Terapi</h5>
+                                                        <textarea style="height: 150px;" class="form-control"
+                                                            id="program_terapi" name="program_terapi" placeholder=""
+                                                            required></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Intervensi -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <h5>E. Intervensi</h5>
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <td>Tanggal</td>
+                                                                    <td>Tempat/Area yang Diterapi</td>
+                                                                    <td>Intervensi</td>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><input type="text" class="form-control"
+                                                                            name="intervensi_tanggal"
+                                                                            id="intervensi_tanggal_1"></td>
+                                                                    <td>
+                                                                        <div class="custom-file">
+                                                                            <input type="file" class="custom-file-input"
+                                                                                name="file2"
+                                                                                id="uploadFile2" >
+                                                                            <label class="custom-file-label"
+                                                                                for="pemeriksaan_fisik">Choose
+                                                                                file...</label>
+                                                                            <div class="invalid-feedback">Example
+                                                                                invalid custom
+                                                                                file feedback
+                                                                            </div>
+                                                                        </div> <br>
+                                                                        <!-- <div class='preview' style="width: 220px;
+                                                                            height: 250px;
+                                                                            border: 1px solid black;
+                                                                            margin: 0 auto;
+                                                                            background:dimgrey;">
+                                                                            <img src="images/anotasi.png" 2 id="img" width="220"
+                                                                                height="250">
+                                                                        </div> -->
+                                                                        <!-- <button class="btn btn-secondary" id="but_upload"
+                                                                            type="submit">Submit
+                                                                            form</button> -->
+                                                                    </td>
+                                                                    <td><input type="text" class="form-control"
+                                                                            name="intervensi_ket" id="intervensi_ket_1">
+                                                                    </td>
+                                                                </tr>
+                                                              
+                                                                
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Evaluasi -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="needs-validation" novalidate>
+                                                        <h5>F. Evaluasi</h5>
+                                                        <textarea style="height: 150px;" class="form-control"
+                                                            id="evaluasi" name="evaluasi" placeholder=""
+                                                            required></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tombol1 -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <button type="submit" class="btn btn-pink px-4"
+                                                        id="btn_simpan1" name="upload">SIMPAN</button>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <form id="forminput2">
+                    <div class="form-group" id="fisioterapi2">
+                        <!-- FORM ASESMENT FISIOTERAPI -->
+                        <h4 class="page-title">FORM ASESMENT FISIOTERAPI</h4> <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="needs-validation" novalidate>
+                                            <div class="form-group">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Identitas Pasien</td>
+                                                            <td><input type="text" class="form-control" name="id_pasien[]" id="id_pasien_1"></td>
+                                                            <td><input type="text" class="form-control" name="id_pasien[]" id="id_pasien_2"></td>
+                                                            <td><input type="text" class="form-control" name="id_pasien[]" id="id_pasien_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Hasil Pemeriksaan Awal</td>
+                                                            <td><input type="text" class="form-control" name="hasil_periksa_awal[]" id="hasil_periksa_awal_1"></td>
+                                                            <td><input type="text" class="form-control" name="hasil_periksa_awal[]" id="hasil_periksa_awal_2"></td>
+                                                            <td><input type="text" class="form-control" name="hasil_periksa_awal[]" id="hasil_periksa_awal_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diagnosis Medis</td>
+                                                            <td><input type="text" class="form-control" name="diag_medis[]" id="diag_medis_1"></td>
+                                                            <td><input type="text" class="form-control" name="diag_medis[]" id="diag_medis_2"></td>
+                                                            <td><input type="text" class="form-control" name="diag_medis[]" id="diag_medis_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diagnosis Fisioterapi</td>
+                                                            <td><input type="text" class="form-control" name="diag_fisio[]" id="diag_fisio_1"></td>
+                                                            <td><input type="text" class="form-control" name="diag_fisio[]" id="diag_fisio_2"></td>
+                                                            <td><input type="text" class="form-control" name="diag_fisio[]" id="diag_fisio_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tindakan/terapi yang telah dilakukan</td>
+                                                            <td><input type="text" class="form-control" name="tindak_terapi[]" id="tindak_terapi_1"></td>
+                                                            <td><input type="text" class="form-control" name="tindak_terapi[]" id="tindak_terapi_2"></td>
+                                                            <td><input type="text" class="form-control" name="tindak_terapi[]" id="tindak_terapi_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Evaluasi</td>
+                                                            <td><input type="text" class="form-control" name="evaluasi[]" id="evaluasi_1"></td>
+                                                            <td><input type="text" class="form-control" name="evaluasi[]" id="evaluasi_2"></td>
+                                                            <td><input type="text" class="form-control" name="evaluasi[]" id="evaluasi_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Rekomendasi/Usulan</td>
+                                                            <td><input type="text" class="form-control" name="rekomendasi[]" id="rekomendasi_1"></td>
+                                                            <td><input type="text" class="form-control" name="rekomendasi[]" id="rekomendasi_2"></td>
+                                                            <td><input type="text" class="form-control" name="rekomendasi[]" id="rekomendasi_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Nama dan tandatangan</td>
+                                                            <td><input type="text" class="form-control" name="nama[]" id="nama_1"></td>
+                                                            <td><input type="text" class="form-control" name="nama[]" id="nama_2"></td>
+                                                            <td><input type="text" class="form-control" name="nama[]" id="nama_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Fisioterapis perujuk</td>
+                                                            <td><input type="text" class="form-control" name="fisioterapis_perujuk[]" id="fisioterapis_perujuk_1"></td>
+                                                            <td><input type="text" class="form-control" name="fisioterapis_perujuk[]" id="fisioterapis_perujuk_2"></td>
+                                                            <td><input type="text" class="form-control" name="fisioterapis_perujuk[]" id="fisioterapis_perujuk_3"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tanggal</td>
+                                                            <td colspan="2"><input type="date" class="form-control" name="tanggal" id="tanggal_fisioterapi"></td>
+                                                            <td><input type="text" class="form-control" name="tanggal" id="tanggal_fisioterapi_ket"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FORM RESUME FISIOTERAPI -->
+                        <h4 class="page-title">FORM RESUME FISIOTERAPI</h4> <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="needs-validation" novalidate>
+                                            <div class="form-group">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Umur</td>
+                                                            <td>
+                                                            <input type="text" class="form-control" name="umur" id="umur"></td>
+                                                            <td>Tanggal</td>
+                                                            <td>
+                                                            <input type="text" class="form-control" name="tanggal_resume" id="tanggal"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>1. Dokter yang merujuk/Langsung</h6>
+                                                <input type="text" id="dokter_rujukan" name="dokter_rujukan" class="form-control">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Diagnosis Medis</td>
+                                                            <td><input type="text" class="form-control" id="diag_medis" name="diag_medis"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tujuan rujukan ke fisioterapi</td>
+                                                            <td><input type="text" class="form-control" id="tujuan_rujukan" name="tujuan_rujukan"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>2. Kondisi Awal</h6>
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Gejala/sindroma</td>
+                                                            <td><input type="text" class="form-control" id="awal_gejala" name="awal_gejala"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Status gangguan gerak fungsional</td>
+                                                            <td><input type="text" class="form-control" id="awal_status_gangguan" name="awal_status_gangguan"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Parameter</td>
+                                                            <td><input type="text" class="form-control" id="awal_parameter" name="awal_status_parameter"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diagnosis Fisioterapi</td>
+                                                            <td><input type="text" class="form-control" id="awal_diag_fisio" name="awal_diag_fisio"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>3. Kondisi Akhir</h6>
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Gejala/sindroma</td>
+                                                            <td><input type="text" class="form-control" id="akhir_gejala" name="akhir_gejala"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Status gangguan gerak fungsional</td>
+                                                            <td><input type="text" class="form-control" id="akhir_status_gangguan" name="akhir_status_gangguan"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Parameter</td>
+                                                            <td><input type="text" class="form-control" id="akhir_parameter" name="akhir_status_parameter"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Diagnosis Fisioterapi</td>
+                                                            <td><input type="text" class="form-control" id="akhir_diag_fisio" name="akhir_diag_fisio"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>4. Hambatan Keberhasilan</h6>
+                                                <input type="text" id="hambatan_keberhasilan" name="hambatan_keberhasilan" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <h6>5. Rekomendasi Tindak Lanjut</h6>
+                                                <input type="text" id="rekomen_lanjut" name="rekomen_lanjut" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tombol2 -->
+                        <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <button type="submit" class="btn btn-pink px-4"
+                                                id="btn_simpan2">SIMPAN</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </form>
+                <!-- end page title end breadcrumb -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer class="footer text-center text-sm-left">
+        © 2018-2019 Amezia <span class="text-muted d-none d-sm-inline-block float-right">Crafted with <i
+                class="mdi mdi-heart text-danger"></i> by Themesbrand</span>
+    </footer>
+    </div>
+    <!-- end page content -->
+    </div>
+    <!-- end page-wrapper -->
+
+
+    <!-- jQuery  -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/metisMenu.min.js"></script>
+    <script src="../assets/js/waves.min.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+
+    <!-- Parsley js -->
+    <script src="../assets/plugins/parsleyjs/parsley.min.js"></script>
+    <script src="../assets/pages/jquery.form-validation.init-.js"></script>
+
+    <!-- App js -->
+    <script src="../assets/js/app.js"></script>
+    <script>
+    //     $("#uploadForm").on('submit',(function(e) {
+	// 	e.preventDefault();
+	// 	
+	// }));
+    $("#uploadFile").on('submit',(function(e){
+        e.preventDefault();
+                $.ajax({
+                url: "inc/aksi.php",
+                type: "POST",
+                data:  new FormData(this),
+                contentType: false,
+                cache: false,
+                processData:false,
+                success: function(data){
+                
+                },
+                error: function(){} 	        
+            });
+        }));
+
+               $("#btn_simpan1").on("click", function (e) {
+                var allform = $( "#forminput1").serializeArray();
+                var fd = new FormData();
+                var files = $('#uploadFile')[0].files[0];
+                var files2 = $('#uploadFile2')[0].files[0];
+                fd.append('file',files);
+                fd.append('file2',files2);
+                allform.forEach(items => {
+		        fd.append(items.name, items.value);
+	            });
+
+
+                $.ajax({
+				    url: "inc/fisio.php",
+                    //Ajax events
+                    success: function (e) {
+                        alert(e);
+                        
+                    },
+                    error: function (e) {
+                        alert(e);
+                    },
+                    // Form data
+                    data: fd,
+                    type: 'POST',
+                    //Options to tell jQuery not to process data or worry about content-type.
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+         });
+
+        $("#btn_simpan2").on("click", function (e) {
+        
+        var $form = $("#forminput2");
+            var $inputs = $form.find("input, select, button, textarea");
+            var serializedData = new FormData($("#forminput2")[0]);
+
+            $.ajax({
+                url: 'inc/fisio_rujukan.php',
+                type: 'POST',
+                data: $("#forminput2").serialize(),
+                success: function (data) {
+                    alert(data);
+
+
+                    if (data) {
+                        // document.location.href = 'inc/cetak.php?kode=' + data;
+
+                    } else {
+
+                    }
+                },
+                error: function (ts) {
+                    console.log(ts)
+                    alert(ts.responseText)
+                }
+            });
+});
+        // $("#btn_simpan1").on("click", function (e){                
+        // $.post( "inc/fisio.php", $( "form#forminput1" ).serialize() );               
+        // alert("Sukses ditambahkan");
+        // })
+    </script>
+</body>
+
+</html>

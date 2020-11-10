@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Amezia - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A premium admin dashboard template by themesbrand" name="description" />
+    <meta content="Themesbrand" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <!-- Top Bar Start -->
+    <div class="topbar">
+
+        <!-- LOGO -->
+        <div class="topbar-left">
+            <a href="index.html" class="logo">
+                <span>
+                    <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                </span>
+                <span>
+                    <img src="../assets/images/logo.png" alt="logo-large" class="logo-lg">
+                </span>
+            </a>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar-custom">
+
+            <!-- Search input -->
+            <div class="search-wrap" id="search-wrap">
+                <div class="search-bar">
+                    <input class="search-input" type="search" placeholder="Search here.." />
+                    <a href="javascript:void(0);" class="close-search search-btn" data-target="#search-wrap">
+                        <i class="mdi mdi-close-circle"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="list-unstyled topbar-nav float-right mb-0">
+                <li>
+                    <a class="nav-link waves-effect waves-light search-btn" href="javascript:void(0);"
+                        data-target="#search-wrap">
+                        <i class="mdi mdi-magnify nav-icon"></i>
+                    </a>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown"
+                        href="javascript: void(0);" role="button" aria-haspopup="false" aria-expanded="false">
+                        English <img src="../assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt="" /> <i
+                            class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img
+                                src="../assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img
+                                src="../assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img
+                                src="../assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img
+                                src="../assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                        <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img
+                                src="../assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right"
+                                height="14" /></a>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="mdi mdi-bell-outline nav-icon"></i>
+                        <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                        <!-- item-->
+                        <h6 class="dropdown-item-text">
+                            Notifications (258)
+                        </h6>
+                        <div class="slimscroll notification-list">
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of
+                                        the printing and typesetting industry.</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">New Message received<small class="text-muted">You have 87
+                                        unread messages</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
+                                <p class="notify-details">Your item is shipped<small class="text-muted">It is a long
+                                        established fact that a reader will</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
+                                <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of
+                                        the printing and typesetting industry.</small></p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                <p class="notify-details">New Message received<small class="text-muted">You have 87
+                                        unread messages</small></p>
+                            </a>
+                        </div>
+                        <!-- All-->
+                        <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                            View all <i class="fi-arrow-right"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link waves-effect waves-light" href="javascript:void(0);" id="btn-fullscreen">
+                        <i class="mdi mdi-fullscreen nav-icon"></i>
+                    </a>
+                </li>
+
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <img src="../assets/images/users/user-1.jpg" alt="profile-user" class="rounded-circle" />
+                        <span class="ml-1 nav-user-name hidden-sm">Amelia <i class="mdi mdi-chevron-down"></i> </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> My Wallet</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Settings</a>
+                        <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Lock screen</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled topbar-nav mb-0">
+
+                <li>
+                    <button class="button-menu-mobile nav-link waves-effect waves-light">
+                        <i class="mdi mdi-menu nav-icon"></i>
+                    </button>
+                </li>
+
+                <li class="hidden-sm">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
+                        href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="mdi mdi-library-plus mr-2"></i>Tools <i class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Photoshop
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Visual Studio
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Sublime Text 3
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item">
+                            Phpstorm
+                        </a>
+
+                    </div>
+                </li>
+                <li class="hidden-sm">
+                    <a class="nav-link waves-effect waves-light" href="../landing/index.html" target="_blank">
+                        <i class="mdi mdi-airplane mr-2"></i>Landing
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- end navbar-->
+    </div>
+    <!-- Top Bar End -->
+
+    <div class="page-wrapper">
+        <!-- Left Sidenav -->
+        <div class="left-sidenav">
+            <ul class="metismenu left-sidenav-menu" id="side-nav">
+
+                <li class="menu-title">Main</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-speedometer"></i><span>Dashboards</span><span
+                            class="badge badge-danger badge-pill float-right">9+</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="index.html">Dashboard 1</a></li>
+                        <li><a href="index-2.html">Dashboard 2</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-email-variant"></i><span>Email</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="email-inbox.html">Inbox</a></li>
+                        <li><a href="email-read.html">Read Email</a></li>
+                        <li><a href="email-compose.html">Compose Email</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="calendar.html">
+                        <i class="mdi mdi-calendar"></i><span>Calendar</span>
+                    </a>
+                </li>
+
+                <li class="menu-title">Components</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-briefcase-check"></i><span>UI Elements</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="ui-alerts.html">Alerts</a></li>
+                        <li><a href="ui-buttons.html">Buttons</a></li>
+                        <li><a href="ui-cards.html">Cards</a></li>
+                        <li><a href="ui-dropdowns.html">Dropdowns</a></li>
+                        <li><a href="ui-modals.html">Modals</a></li>
+                        <li><a href="ui-typography.html">Typography</a></li>
+                        <li><a href="ui-progress.html">Progress</a></li>
+                        <li><a href="ui-tabs-accordions.html">Tabs & Accordions</a></li>
+                        <li><a href="ui-tooltips-popovers.html">Tooltips & Popover</a></li>
+                        <li><a href="ui-carousel.html">Carousel</a></li>
+                        <li><a href="ui-pagination.html">Pagination</a></li>
+                        <li><a href="ui-video.html">Videos</a></li>
+                        <li><a href="ui-colors.html">Colors</a></li>
+                        <li><a href="ui-grid.html">Grid System</a></li>
+                        <li><a href="ui-spinners.html">Spinners</a></li>
+                        <li><a href="ui-toasts.html">Toasts</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-buffer"></i><span>Advanced UI</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="advanced-rangeslider.html">Range Slider</a></li>
+                        <li><a href="advanced-sweetalerts.html">Sweet Alerts</a></li>
+                        <li><a href="advanced-nestable.html">Nestable List</a></li>
+                        <li><a href="advanced-ratings.html">Ratings</a></li>
+                        <li><a href="advanced-highlight.html">Highlight</a></li>
+                        <li><a href="advanced-clipboard.html">Clipboard</a></li>
+                        <li><a href="advanced-lightbox.html">Lightbox</a></li>
+                        <li><a href="advanced-session.html">Session Timeout</a></li>
+                        <li><a href="advanced-scrollbars.html">Scrollbars</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-clipboard-outline"></i><span
+                            class="badge badge-info float-right">8</span><span>Forms</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="forms-elements.html">Basic Elements</a></li>
+                        <li><a href="forms-advanced.html">Advance Elements</a></li>
+                        <li><a href="forms-validation.html">Validation</a></li>
+                        <li><a href="forms-wizard.html">Wizard</a></li>
+                        <li><a href="forms-editors.html">Editors</a></li>
+                        <li><a href="forms-repeater.html">Repeater</a></li>
+                        <li><a href="forms-x-editable.html">X Editable</a></li>
+                        <li><a href="forms-uploads.html">File Upload</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-chart-arc"></i><span>Charts</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="charts-morris.html">Morris</a></li>
+                        <li><a href="charts-chartist.html">Chartist</a></li>
+                        <li><a href="charts-flot.html">Flot</a></li>
+                        <li><a href="charts-peity.html">Peity</a></li>
+                        <li><a href="charts-chartjs.html">Chartjs</a></li>
+                        <li><a href="charts-sparkline.html">Sparkline</a></li>
+                        <li><a href="charts-knob.html">Jquery Knob</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i
+                            class="mdi mdi-format-list-bulleted-type"></i><span>Tables</span><span class="menu-arrow"><i
+                                class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="tables-basic.html">Basic</a></li>
+                        <li><a href="tables-datatable.html">Datatables</a></li>
+                        <li><a href="tables-responsive.html">Responsive</a></li>
+                        <li><a href="tables-editable.html">Editable</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-album"></i><span>Icons</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="icons-materialdesign.html">Material Design</a></li>
+                        <li><a href="icons-dripicons.html">Dripicons</a></li>
+                        <li><a href="icons-fontawesome.html">Font awesome</a></li>
+                        <li><a href="icons-themify.html">Themify</a></li>
+                        <li><a href="icons-typicons.html">Typicons</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-title">More</li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-map"></i><span>Maps</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="maps-google.html">Google Maps</a></li>
+                        <li><a href="maps-vector.html">Vector Maps</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i
+                            class="mdi mdi-account-location"></i><span>Authentication</span><span class="menu-arrow"><i
+                                class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="auth-login.html">Login</a></li>
+                        <li><a href="auth-register.html">Register</a></li>
+                        <li><a href="auth-recoverpw.html">Recover Password</a></li>
+                        <li><a href="auth-lock-screen.html">Lock Screen</a></li>
+                        <li><a href="auth-404.html">Error 404</a></li>
+                        <li><a href="auth-500.html">Error 500</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);"><i class="mdi mdi-google-pages"></i><span>Pages</span><span
+                            class="badge badge-success float-right">Hot</span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="page-tour.html">Tour</a></li>
+                        <li><a href="page-timeline.html">Timeline</a></li>
+                        <li><a href="page-invoice.html">Invoice</a></li>
+                        <li><a href="page-treeview.html">Treeview</a></li>
+                        <li><a href="page-profile.html">Profile</a></li>
+                        <li><a href="page-starter.html">Starter Page</a></li>
+                        <li><a href="page-pricing.html">Pricing</a></li>
+                        <li><a href="page-faq.html">FAQs</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0);"><i class="mdi mdi-contact-mail"></i><span>Email Templates</span><span
+                            class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li><a href="email-templates-basic.html">Basic Action Email</a></li>
+                        <li><a href="email-templates-alert.html">Alert Email</a></li>
+                        <li><a href="email-templates-billing.html">Billing Email</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end left-sidenav-->
+
+        <!-- Page Content-->
+        <div class="page-content">
+            <form id="formInput">
+                <div class="container-fluid">
+                    <!-- Page-Title -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="page-title-box">
+                                <div class="float-right">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Amezia</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:void(0);">Forms</a></li>
+                                        <li class="breadcrumb-item active">Validation</li>
+                                    </ol>
+                                </div>
+                                <h4 class="page-title">Form Validation</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title end breadcrumb -->
+                    <!--paling atas kanan-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form class="needs-validation" novalidate>
+                                        <div class="col-md-12">
+                                            <label id="no_rm">No.RM</label>
+                                            <input type="hidden" value="" name="no_rm_x">/
+                                            <input type="hidden" value="" name="no_kunjungan">
+                                            <label id="nama">Nama</label><br>
+                                            <label id="umur">Umur</label>/
+                                            <label id="jns_kel">Jenis Kelamin</label>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="forminput">
+                        <div class="form-group" id="gizi" name="gizi">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <div class="form-group">
+                                                    <h4 style="text-align: center;">ASESMEN AWAL GIZI</h4>
+                                                </div>
+                                                <div>
+                                                    <label for="keluhan_utama_medis">Diagnosis Medis : </label>
+                                                    <div class="card-body">
+                                                        <textarea style="height: 100px;" class="form-control"
+                                                            id="diagnosis_medis" name="diagnosis_medis" placeholder=""
+                                                            required></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <h4 style="text-align: center;">ASESMEN GIZI</h4>
+                                                <div class="form-group">
+                                                    <h6>A. Antropometri</h6>
+                                                    <div class="card-body">
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>BB</td>
+                                                                    <td><input type="text" class="form-control" id="bb"
+                                                                            name="bb" placeholder=""></td>
+                                                                    <td>TB</td>
+                                                                    <td><input type="text" class="form-control" id="tb"
+                                                                            name="tb" placeholder=""></td>
+                                                                    <td>IMT</td>
+                                                                    <td><input type="text" class="form-control" id="imt"
+                                                                            name="imt" placeholder=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>LA</td>
+                                                                    <td><input type="text" class="form-control" id="la"
+                                                                            name="la" placeholder=""></td>
+                                                                    <td>Z-Score</td>
+                                                                    <td><input type="text" class="form-control" id="z_score"
+                                                                            name="z_score" placeholder=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Status Gizi</td>
+                                                                    <td><input type="text" class="form-control"
+                                                                            id="status_gizi" name="status_gizi"
+                                                                            placeholder=""></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <h6>B. Biokimia</h6>
+                                                    <div class="card-body">
+                                                        <textarea style="height: 150px;" class="form-control" id="biokimia"
+                                                            name="biokimia" placeholder="" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <h6>C. Klinik/Fisik</h6>
+                                                    <div class="card-body">
+                                                        <table class="table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>KU</td>
+                                                                    <td><input type="text" class="form-control" id="ku"
+                                                                            name="ku" placeholder=""></td>
+                                                                    <td>Vital Sign</td>
+                                                                    <td><input type="text" class="form-control"
+                                                                            id="vital_sign" name="vital_sign"
+                                                                            placeholder=""></td>
+                                                                    <td>TD</td>
+                                                                    <td><input type="text" class="form-control" id="td"
+                                                                            name="td" placeholder=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>S</td>
+                                                                    <td><input type="text" class="form-control" id="s"
+                                                                            name="s" placeholder=""></td>
+                                                                    <td>NRR</td>
+                                                                    <td><input type="text" class="form-control" id="nrr"
+                                                                            name="nrr" placeholder=""></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Gangguan Gstrointestinal</td>
+                                                                    <td><input type="text" class="form-control" id="gg"
+                                                                            name="gg" placeholder="">
+                                                                    </td>
+                                                                    <td>Z-Score</td>
+                                                                    <td><input type="text" class="form-control"
+                                                                            id="z_score_fisik" name="z_score_fisik"
+                                                                            placeholder=""></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="form-group">
+                                                            <div class="col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="fisik_tidak" name="fisik[]" value="1">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_tidak">Tidak
+                                                                                Ada</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input" id="fisik_mual"
+                                                                                name="fisik[]" value="2">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_mual">Mual</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="fisik_muntah" name="fisik[]" value="3">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_muntah">Muntah</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="fisik_diare" name="fisik[]" value="4">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_diare">Diare</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="fisik_konstipasi" name="fisik[]"
+                                                                                value="5">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_konstipasi">Konstipasi</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="custom-control custom-checkbox">
+                                                                            <input type="checkbox"
+                                                                                class="custom-control-input"
+                                                                                id="fisik_sulit_mengunyah" name="fisik[]"
+                                                                                value="6">
+                                                                            <label class="custom-control-label"
+                                                                                for="fisik_sulit_mengunyah">Sulit
+                                                                                Mengunyah/Menelan</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <h6>D. Dietary History</h6>
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>1. Alergi Makanan</p>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="alergi_makanan_tidak" name="alergi_makanan"
+                                                                        value="tidak">
+                                                                    <label class="custom-control-label"
+                                                                        for="alergi_makanan_tidak">Tidak
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="alergi_makanan_ya" name="alergi_makanan"
+                                                                        value="ya">
+                                                                    <label class="custom-control-label"
+                                                                        for="alergi_makanan_ya">Ya, Sebutkan</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-0">
+                                                                <input type="text" class="form-control"
+                                                                    id="alergi_makanan_ya_add" style="display: none;"
+                                                                    name="alergi_makanan" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>2. Pantangan Makanan</p>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="pantangan_makanan_tidak"
+                                                                        name="pantangan_makanan" value="tidak">
+                                                                    <label class="custom-control-label"
+                                                                        for="pantangan_makanan_tidak">Tidak
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="pantangan_makanan_ya" name="pantangan_makanan"
+                                                                        value="ya">
+                                                                    <label class="custom-control-label"
+                                                                        for="pantangan_makanan_ya">Ya, Sebutkan</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-0">
+                                                                <input type="text" class="form-control"
+                                                                    id="pantangan_makanan_ya_add" style="display: none;"
+                                                                    name="pantangan_makanan" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>3. Diet yang dijalani</p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <input type="text" class="form-control" id="diet_dijalani"
+                                                                    name="diet_dijalani" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>4. Pola Makan</p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <input type="text" class="form-control" id="pola_makan"
+                                                                    name="pola_makan" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>5. Pola Minum</p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <input type="text" class="form-control" id="pola_minum"
+                                                                    name="pola_minum" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-3">
+                                                                <p>6. Konsultasi/Pendidikan gizi</p>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="pendidikan_gizi_pernah" name="pendidikan_gizi"
+                                                                        value="1">
+                                                                    <label class="custom-control-label"
+                                                                        for="pendidikan_gizi_pernah">Pernah
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2">
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" class="custom-control-input"
+                                                                        id="pendidikan_gizi_tidak" name="pendidikan_gizi"
+                                                                        value="2">
+                                                                    <label class="custom-control-label"
+                                                                        for="pendidikan_gizi_tidak">Tidak</label>
+                                                                </div>
+                                                            </div>
+                                                        </div> <br>
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <p>7. Asupan Makanan (recall 24 jam)</p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <input type="text" class="form-control" id="asupan_makan"
+                                                                    name="asupan_makan" placeholder="">
+                                                            </div>
+                                                        </div> <br>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <h6>E. Riwayat Penyakit Pasien</h6>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <textarea style="height: 150px;" class="form-control"
+                                                                id="riwayat_penyakit" name="riwayat_penyakit" placeholder=""
+                                                                required></textarea>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <h5 style="text-align: center;">DIAGNOSIS GIZI</h5>
+                                                <div class="card-body">
+                                                    <textarea style="height: 150px;" class="form-control"
+                                                        id="diagnosis_gizi" name="diagnosis_gizi" placeholder=""
+                                                        required></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <h5 style="text-align: center;">INTERVENSI GIZI</h5>
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <p>1. Terapi diet:</p>
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <input type="text" class="form-control" name="terapi_diet"
+                                                                id="terapi_diet" required>
+                                                        </div>
+                                                    </div> <br>
+                                                    <div class="row">
+                                                        <div class="col-3">
+                                                            <p>2. Tujuan diet:</p>
+                                                        </div>
+                                                        <div class="col-9">
+                                                            <input type="text" class="form-control" name="tujuan_diet"
+                                                                id="tujuan_diet" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <div class="form-group">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <p>Perhitungan kebutuhan</p>
+                                                            <p>Dewasa(Mifflin) > 18 tahun</p>
+                                                            <p>BMR Laki - laki</p>
+                                                            <p>= (10 X BB) + (6,25 X TB) - (5 X usia) + 5</p>
+                                                            <input type="text" class="form-control" id="bmr_laki_laki"
+                                                                name="bmr_laki_laki" placeholder="">
+                                                            <p>BMR Wanita</p>
+                                                            <p>= (10 X BB) + (6,25 X TB) - (5 X usia) - 161</p>
+                                                            <input type="text" class="form-control" id="bmr_perempuan"
+                                                                name="bmr_perempuan" placeholder=""> <br>
+                                                            <p>Energi = BMR X F.A X F.S</p>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <p>Anak < 18 tahun</p> <p>Kebutuhan energi = RDA X BBA/BBI
+                                                            </p>
+                                                            <input type="text" class="form-control"
+                                                                id="kebutuhan_energi" name="kebutuhan_energi"
+                                                                placeholder=""> <br>
+                                                            <table class="table" border="">
+                                                                <thead>
+                                                                    <th>Umur</th>
+                                                                    <th>Pria</th>
+                                                                    <th>Wanita</th>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>0 - 1</td>
+                                                                        <td>110 - 120</td>
+                                                                        <td>110 - 121</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>1 - 3</td>
+                                                                        <td>100</td>
+                                                                        <td>100</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>4 - 6</td>
+                                                                        <td>90</td>
+                                                                        <td>90</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>6 - 9</td>
+                                                                        <td>80 - 90</td>
+                                                                        <td>60 - 80</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>10 - 14</td>
+                                                                        <td>50 - 70</td>
+                                                                        <td>40 - 55</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>14 - 18</td>
+                                                                        <td>40 - 50</td>
+                                                                        <td>40</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <div class="form-group">
+                                                    <h6>Implementasi/Pemesanan Diet</h6>
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label for="route">Route</label>
+                                                            <input type="text" class="form-control" name="route" id="route"
+                                                                required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            Bentuk Makanan
+                                                            <div class="row">
+                                                                <div class="col-4">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="bentuk_1" name="bentuk[]" value="1">
+                                                                        <label class="custom-control-label"
+                                                                            for="bentuk_1">Nasi Biasa</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="bentuk_2" name="bentuk[]" value="2">
+                                                                        <label class="custom-control-label"
+                                                                            for="bentuk_2">Bubur Nasi</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="bentuk_3" name="bentuk[]" value="3">
+                                                                        <label class="custom-control-label"
+                                                                            for="bentuk_3">Bubur Saring</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            Jenis Diet
+                                                            <div class="row">
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_1" name="jenis[]" value="1">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_1">Diabetes Militus</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_2" name="jenis[]" value="2">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_2">Diet Jantung</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_3" name="jenis[]" value="3">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_3">Rendah Purin</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_4" name="jenis[]" value="4">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_4">Rendah Garam</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_5" name="jenis[]" value="5">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_5">Rendah Protein</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_6" name="jenis[]" value="6">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_6">Rendah Lemak</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_7" name="jenis[]" value="7">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_7">Tinggi Kalori Tinggi
+                                                                            Protein</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_8" name="jenis[]" value="8">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_8">Rendah Serat</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_9" name="jenis[]" value="9">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_9">Tinggi Serat</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input"
+                                                                            id="jenis_10" name="jenis[]" value="10">
+                                                                        <label class="custom-control-label"
+                                                                            for="jenis_10">Rendah Kalium</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="needs-validation" novalidate>
+                                                <div class="form-group">
+                                                    <h5 style="text-align: center;">RENCANA MONITORING EVALUASI</h5>
+                                                    <table class="table" border="">
+                                                        <thead>
+                                                            <tr>
+                                                                <td>Parameter</td>
+                                                                <td>Target</td>
+                                                                <td>Waktu</td>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="parameter[]" id="parameter_1" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="target[]" id="target_1" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" name="waktu[]"
+                                                                        id="waktu_1" required>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="parameter[]" id="parameter_2" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="target[]" id="target_2" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" name="waktu[]"
+                                                                        id="waktu_2" required>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="parameter[]" id="parameter_3" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control"
+                                                                        name="target[]" id="target_3" required>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" class="form-control" name="waktu[]"
+                                                                        id="waktu_3" required>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tombol -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <button type="submit" class="btn btn-pink px-4" id="btn_simpan">SIMPAN</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer text-center text-sm-left">
+            © 2018-2019 Amezia <span class="text-muted d-none d-sm-inline-block float-right">Crafted with <i
+                    class="mdi mdi-heart text-danger"></i> by Themesbrand</span>
+        </footer>
+        <!-- end page content -->
+    </div>
+    <!-- end page-wrapper -->
+
+
+    <!-- jQuery  -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/metisMenu.min.js"></script>
+    <script src="../assets/js/waves.min.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+
+    <!-- Parsley js -->
+    <script src="../assets/plugins/parsleyjs/parsley.min.js"></script>
+    <script src="../assets/pages/jquery.form-validation.init-.js"></script>
+
+    <!-- App js -->
+    <script src="../assets/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input[name='alergi_makanan']").change(function () {
+                if ($(this).val() == "ya") {
+                    $("#alergi_makanan_ya_add").show();
+                } else {
+                    $("#alergi_makanan_ya_add").hide();
+                }
+            });
+            $("input[name='pantangan_makanan']").change(function () {
+                if ($(this).val() == "ya") {
+                    $("#pantangan_makanan_ya_add").show();
+                } else {
+                    $("#pantangan_makanan_ya_add").hide();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            var re = /^[0-9]+$/;
+
+            $("#btn_simpan").on("click", function (e) {
+
+                // jam_plg = $(#jam_plg).val();
+                no_rm = $("#no_rm_x").val();
+                no_kunjungan = $("#no_kunjungan").val();
+                nama = $("#nama").val();
+                umur = $("#umur").val();
+                jns_kel = $("#jns_kel").val();
+
+                diagnosis_medis = $("#diagnosis_medis").val();
+                bb = $("#bb").val();
+                tb = $("#tb").val();
+                imt = $("#imt").val();
+                la = $("#la").val();
+                z_score = $("#z_score").val();
+                status_gizi = $("#status_gizi").val();
+                biokimia = $("#biokimia").val();
+
+                ku = $("#ku").val();
+                vital_sign = $("#vital_sign").val();
+                td = $("#td").val();
+                s = $("#s").val();
+                nrr = $("#nrr").val();
+                gg = $("#gg").val();
+                z_score_fisik = $("#z_score_fisik").val();
+
+                fisik = $('input[name="fisik[]"]:checked').val();
+                alergi_makanan = $('input[name="alergi_makanan"]:checked').val();
+                pantangan_makanan = $('input[name="pantangan_makanan"]:checked').val();
+                diet_dijalani = $("#diet_dijalani").val();
+                pola_makan = $("#pola_makan").val();
+                pola_minum = $("#pola_minum").val();
+                pendidikan_gizi = $('input[name="pendidikan_gizi"]:checked').val();
+
+                asupan_makan = $("#asupan_makan").val();
+                riwayat_penyakit = $("#riwayat_penyakit ").val();
+
+
+                diagnosis_gizi = $("#diagnosis_gizi").val();
+                terapi_diet = $("#terapi_diet").val();
+                tujuan_diet = $("#tujuan_diet").val();
+                bmr_perempuan = $("#bmr_perempuan").val();
+                bmr_laki_laki = $("#bmr_laki_laki").val();
+                //kebutuhan_energi = $("#kebutuhan_energi").val();
+
+                route = $("#route").val();
+                bentuk = $('input[name="bentuk[]"]:checked').val();
+                jenis = $('input[name="jenis[]"]:checked').val();
+
+                parameter = $('input[name="parameter"]:checked').val();
+                target = $('input[name="target"]:checked').val();
+                waktu = $('input[name="waktu"]:checked').val();
+
+                if (diagnosis_medis == "") {
+                    alert("Mohon untuk mengisi diagnosis medis terlebih dahulu!")
+                } else if (bb == "") {
+                    alert("Mohon untuk mengisi berat badan terlebih dahulu!")
+                } else if (tb == "") {
+                    alert("Mohon untuk mengisi tb terlebih dahulu!")
+                } else if (imt == "") {
+                    alert("Mohon untuk mengisi imt terlebih dahulu!")
+                } else if (la == "") {
+                    alert("Mohon untuk mengisi LA terlebih dahulu!")
+                } else if (z_score == "") {
+                    alert("Mohon untuk z score terlebih dahulu!")
+                } else if (status_gizi == "") {
+                    alert("Mohon untuk mengisi status gizi terlebih dahulu!")
+                } else if (biokimia == "") {
+                    alert("Mohon untuk mengisi biokimia terlebih dahulu!")
+                } else if (ku == "") {
+                    alert("Mohon untuk mengisi keluhan utama terlebih dahulu!")
+                } else if (vital_sign == "") {
+                    alert("Mohon untuk mengisi vital sign terlebih dahulu!")
+                } else if (td == "") {
+                    alert("Mohon untuk mengisi TD terlebih dahulu!")
+                } else if (s == "") {
+                    alert("Mohon untuk mengisi S terlebih dahulu!")
+                } else if (nrr == "") {
+                    alert("Mohon untuk mengisi NRR terlebih dahulu!")
+                } else if (gg == "") {
+                    alert("Mohon untuk mengisi Gangguan Gstrointestinal terlebih dahulu!")
+                } else if (z_score_fisik == "") {
+                    alert("Mohon untuk mengisi Z-score terlebih dahulu!")
+                } else if (diet_dijalani == "") {
+                    alert("Mohon untuk mengisi diet yang dijalani terlebih dahulu!")
+                } else if (pola_makan == "") {
+                    alert("Mohon untuk mengisi pola makan dahulu!")
+                } else if (pola_minum == "") {
+                    alert("Mohon untuk mengisi pola minumterlebih dahulu!")
+                } else if (asupan_makan == "") {
+                    alert("Mohon untuk mengisi asupan makan terlebih dahulu!")
+                } else if (riwayat_penyakit == "") {
+                    alert("Mohon untuk mengisi ruwayat gizi terlebih dahulu!")
+                } else if (diagnosis_gizi == "") {
+                    alert("Mohon untuk mengisi nadi terlebih dahulu!")
+                } else if (terapi_diet == "") {
+                    alert("Mohon untuk mengisi terapi dietnya dahulu!")
+                } else if (tujuan_diet == "") {
+                    alert("Mohon untuk mengisi tujuan diet terlebih dahulu!")
+                // } else if (bmr_perempuan == "") {
+                //     alert("Mohon untuk mengisi bmr perempuan terlebih dahulu!")
+                // } else if (bmr_laki_laki == "") {
+                //     alert("Mohon untuk mengisi bmr laki laki terlebih dahulu!")
+                // } else if (kebutuhan_energi == "") {
+                //     alert("Mohon untuk mengisi kebutuhan energi terlebih dahulu!")
+                // } 
+                } else if (route == "") {
+                    alert("Mohon untuk mengisi route terlebih dahulu!")
+                } else {
+
+                    var $form = $("#formInput");
+                    var $inputs = $form.find("input, select, button, textarea");
+                    var serializedData = new FormData($("#formInput")[0]);
+
+                    $.ajax({
+                        url: 'inc/gizi.php',
+                        type: 'POST',
+                        data: $("#formInput").serialize(),
+                        success: function (data) {
+                            alert(data);
+
+
+                            if (data) {
+                                // document.location.href = 'inc/cetak.php?kode=' + data;
+
+                            } else {
+
+                            }
+                        },
+                        error: function (ts) {
+                            console.log(ts)
+                            alert(ts.responseText)
+                        }
+                    });
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

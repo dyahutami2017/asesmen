@@ -1,0 +1,50 @@
+<?php include_once "connection.php";
+    $no_rm = rand(10, 100);
+    $no_kunjungan = rand(10, 100);
+    $diagnosis_medis = $_REQUEST['diagnosis_medis'];
+    $bb = $_REQUEST['bb'];
+    $tb = $_REQUEST['tb'];
+    $imt = $_REQUEST['imt'];
+    $la = $_REQUEST['la'];
+    $antropometri_zscore = $_REQUEST['z_score'];
+    $status_gizi = $_REQUEST['status_gizi'] ;
+    $biokimia = $_REQUEST['biokimia'];
+    $klinis_ku = $_REQUEST['ku'];
+    $klinis_vital_sign = $_REQUEST['vital_sign'];
+    $klinis_td = $_REQUEST['td'];
+    $klinis_s = $_REQUEST['s'];
+    $klinis_nrr = $_REQUEST['nrr'];
+    $klinis_gstrointestinal = $_REQUEST['gg'];
+    $klinis_zscore = $_REQUEST['z_score_fisik'];
+    $klinis_status = $_REQUEST['fisik'];
+    $klinis_status = json_encode($klinis_status);
+    $alergi_makanan = $_REQUEST['alergi_makanan'];
+    $pantangan_makanan = $_REQUEST['pantangan_makanan'] ;
+    $diet = $_REQUEST['diet_dijalani'];
+    $pola_makan = $_REQUEST['pola_makan'];
+    $pola_minum = $_REQUEST['pola_minum'];
+    $konsultasi_gizi = $_REQUEST['pendidikan_gizi'];
+    $asupan_makan =$_REQUEST['asupan_makan'];
+    $riwayat_penyakit = $_REQUEST['riwayat_penyakit'];
+    $diagnosis_gizi = $_REQUEST['diagnosis_gizi'];
+    $intervensi_terapi_diet = $_REQUEST['terapi_diet'];
+    $intervensi_tujuan_diet = $_REQUEST['tujuan_diet'];
+    $dewasa_bmr_pria = $_REQUEST['bmr_laki_laki'];
+    $dewasa_bmr_wanita = $_REQUEST['bmr_perempuan'];
+    $implementasi_diet = $_REQUEST['jenis'];
+    $implementasi_diet = json_encode($implementasi_diet);
+    $implementasi_bentuk = $_REQUEST['bentuk'];
+    $implementasi_bentuk = json_encode($implementasi_bentuk);
+    $implementasi_route = $_REQUEST['route'];
+    //$implementasi_route = json_encode($implementasi_route);
+    $rme_parameter = $_REQUEST['parameter'];
+    $rme_parameter = json_encode($rme_parameter);
+    $rme_target = $_REQUEST['target'];
+    $rme_target = json_encode($rme_target);
+    $rme_waktu = $_REQUEST['waktu'];
+    $waktu = json_encode($rme_waktu);
+
+    mysqli_query($conn, "INSERT INTO gizi (no_rm, no_kunjungan, diagnosis_medis, bb, tb, imt, la, antropometri_zscore, status_gizi, biokimia, klinis_ku, klinis_vital_sign, klinis_td, klinis_s, klinis_nrr, klinis_gstrointestinal, klinis_zscore, klinis_status, alergi_makanan, pantangan_makanan, diet, pola_makan, pola_minum, konsultasi_gizi, asupan_makan, riwayat_penyakit, diagnosis_gizi, intervensi_terapi_diet, intervensi_tujuan_diet, dewasa_bmr_pria, dewasa_bmr_wanita, implementasi_diet, implementasi_bentuk, implementasi_route, rme_parameter, rme_target, waktu) 
+    VALUES ('$no_rm', '$no_kunjungan', '$diagnosis_medis', '$bb', '$tb', '$imt', '$la', '$antropometri_zscore', '$status_gizi', '$biokimia', '$klinis_ku', '$klinis_vital_sign', '$klinis_td', '$klinis_s', '$klinis_nrr', '$klinis_gstrointestinal', '$klinis_zscore', '$klinis_status', '$alergi_makanan', '$pantangan_makanan', '$diet', '$pola_makan', '$pola_minum', '$konsultasi_gizi', '$asupan_makan', '$riwayat_penyakit', '$diagnosis_gizi', '$intervensi_terapi_diet', '$intervensi_tujuan_diet', '$dewasa_bmr_pria', '$dewasa_bmr_wanita', '$implementasi_diet', '$implementasi_bentuk', '$implementasi_route', '$rme_parameter', '$rme_target', '$waktu' )") or die(mysqli_error($conn)); 
+    echo "berhasil"
+?>

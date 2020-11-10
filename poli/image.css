@@ -1,0 +1,96 @@
+.nyeri1 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/1h.png");
+    float:left; margin-right:4px;
+}
+.nyeri1:hover {
+    content:url("imagescopy/1.png");
+}
+.nyeri1:active {
+    content:url("imagescopy/1.png");
+}
+.nyeri1:focus {
+    content:url("imagescopy/1.png");
+}
+.nyeri2 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/2h.png");
+    float:left; margin-right:4px;
+}
+.nyeri2:hover {
+    content:url("imagescopy/2.png");
+}
+.nyeri2:active {
+    content:url("imagescopy/2.png");
+}
+.nyeri2:focus {
+    content:url("imagescopy/2.png");
+}
+.nyeri3 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/3h.png");
+    float:left; margin-right:4px;
+}
+.nyeri3:hover {
+    content:url("imagescopy/3.png");
+}
+.nyeri3:active {
+    content:url("imagescopy/3.png");
+}
+.nyeri3:focus {
+    content:url("imagescopy/3.png");
+}
+.nyeri4 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/4h.png");
+    float:left; margin-right:4px;
+}
+.nyeri4:hover {
+    content:url("imagescopy/4.png");
+}
+.nyeri4:active {
+    content:url("imagescopy/4.png");
+}
+.nyeri4:focus {
+    content:url("imagescopy/4.png");
+}
+.nyeri5 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/5h.png");
+    float:left; margin-right:4px;
+}
+.nyeri5:hover {
+    content:url("imagescopy/5.png");
+}
+.nyeri5:active {
+    content:url("imagescopy/5.png");
+}
+.nyeri5:focus {
+    content:url("imagescopy/5.png");
+}
+.nyeri6 {
+    margin-bottom: 10px;
+    width: 10%;
+    display:block;
+    content:url("imagescopy/6h.png");
+    float:left; margin-right:4px;
+}
+.nyeri6:hover {
+    content:url("imagescopy/6.png");
+}
+.nyeri6:active {
+    content:url("imagescopy/6.png");
+}
+.nyeri6:focus {
+    content:url("imagescopy/6.png");
+}
